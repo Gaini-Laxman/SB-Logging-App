@@ -1,0 +1,133 @@
+2023-04-01 15:47:17,336 [restartedMain] INFO  com.klinnovations.Application                      - Starting Application using Java 1.8.0_202 on Laxman with PID 1836 (D:\Softwares\STS Tool\sts_workspace\01-SB-Logging-App\target\classes started by user in D:\Softwares\STS Tool\sts_workspace\01-SB-Logging-App)
+2023-04-01 15:47:17,337 [restartedMain] INFO  com.klinnovations.Application                      - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 15:47:17,612 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2023-04-01 15:47:17,613 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-01 15:47:17,614 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-01 15:47:17,630 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-01 15:47:17,631 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 290 ms
+2023-04-01 15:47:17,732 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-04-01 15:47:17,745 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-01 15:47:17,760 [restartedMain] INFO  com.klinnovations.Application                      - Started Application in 0.533 seconds (JVM running for 250.482)
+2023-04-01 15:47:17,765 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2023-04-01 15:48:26,369 [restartedMain] INFO  com.klinnovations.Application                      - Starting Application using Java 1.8.0_202 on Laxman with PID 10080 (D:\Softwares\STS Tool\sts_workspace\01-SB-Logging-App\target\classes started by user in D:\Softwares\STS Tool\sts_workspace\01-SB-Logging-App)
+2023-04-01 15:48:26,374 [restartedMain] INFO  com.klinnovations.Application                      - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 15:48:26,499 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-01 15:48:26,499 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-01 15:48:28,070 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2023-04-01 15:48:28,093 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-01 15:48:28,096 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-01 15:48:28,097 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-01 15:48:28,187 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-01 15:48:28,188 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1688 ms
+2023-04-01 15:48:28,617 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer                 - Unable to start LiveReload server
+2023-04-01 15:48:28,635 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-01 15:48:28,642 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2023-04-01 15:48:28,648 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8080"]
+2023-04-01 15:48:28,648 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-01 15:48:28,657 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8080"]
+2023-04-01 15:48:28,659 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["http-nio-8080"]
+2023-04-01 15:48:28,671 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-01 15:48:28,716 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter             - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-04-01 15:49:04,652 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-04-01 15:49:04,798 [RMI TCP Connection(15)-127.0.0.1] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-01 15:49:22,793 [restartedMain] INFO  com.klinnovations.Application                      - Starting Application using Java 1.8.0_202 on Laxman with PID 4868 (D:\Softwares\STS Tool\sts_workspace\01-SB-Logging-App\target\classes started by user in D:\Softwares\STS Tool\sts_workspace\01-SB-Logging-App)
+2023-04-01 15:49:22,797 [restartedMain] INFO  com.klinnovations.Application                      - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 15:49:22,870 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-01 15:49:22,871 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-01 15:49:24,257 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2023-04-01 15:49:24,271 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-01 15:49:24,272 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-01 15:49:24,272 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-01 15:49:24,354 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-01 15:49:24,355 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1483 ms
+2023-04-01 15:49:25,001 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-04-01 15:49:25,021 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-01 15:49:25,045 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-01 15:49:25,059 [restartedMain] INFO  com.klinnovations.Application                      - Started Application in 2.761 seconds (JVM running for 3.883)
+2023-04-01 15:49:30,184 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-01 15:49:30,185 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-04-01 15:49:30,187 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2023-04-01 15:49:30,222 [http-nio-8080-exec-1] INFO  com.klinnovations.rest.MsgRestController           - WelcomeMsg() Started....
+2023-04-01 15:49:30,222 [http-nio-8080-exec-1] WARN  com.klinnovations.rest.MsgRestController           - this is warning from WelcomeMsg()
+2023-04-01 15:49:30,222 [http-nio-8080-exec-1] ERROR com.klinnovations.rest.MsgRestController           - Exception occured..../ by zero
+2023-04-01 15:49:30,223 [http-nio-8080-exec-1] INFO  com.klinnovations.rest.MsgRestController           - WelcomeMsg() Ended....
+2023-04-01 15:50:18,138 [http-nio-8080-exec-2] INFO  com.klinnovations.rest.MsgRestController           - WelcomeMsg() Started....
+2023-04-01 15:50:18,139 [http-nio-8080-exec-2] WARN  com.klinnovations.rest.MsgRestController           - this is warning from WelcomeMsg()
+2023-04-01 15:50:18,139 [http-nio-8080-exec-2] ERROR com.klinnovations.rest.MsgRestController           - Exception occured..../ by zero
+2023-04-01 15:50:18,140 [http-nio-8080-exec-2] INFO  com.klinnovations.rest.MsgRestController           - WelcomeMsg() Ended....
+2023-04-01 15:52:13,346 [restartedMain] INFO  com.klinnovations.Application                      - Starting Application using Java 1.8.0_202 on Laxman with PID 9548 (D:\Softwares\STS Tool\sts_workspace\01-SB-Logging-App\target\classes started by user in D:\Softwares\STS Tool\sts_workspace\01-SB-Logging-App)
+2023-04-01 15:52:13,351 [restartedMain] INFO  com.klinnovations.Application                      - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 15:52:13,467 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-01 15:52:13,468 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-01 15:52:14,884 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2023-04-01 15:52:14,898 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-01 15:52:14,899 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-01 15:52:14,900 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-01 15:52:15,005 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-01 15:52:15,008 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1537 ms
+2023-04-01 15:52:15,489 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer                 - Unable to start LiveReload server
+2023-04-01 15:52:15,507 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-01 15:52:15,513 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2023-04-01 15:52:15,518 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8080"]
+2023-04-01 15:52:15,518 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-01 15:52:15,524 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8080"]
+2023-04-01 15:52:15,525 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["http-nio-8080"]
+2023-04-01 15:52:15,535 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-01 15:52:15,567 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter             - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-04-01 15:52:25,130 [RMI TCP Connection(12)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-04-01 15:52:25,267 [RMI TCP Connection(12)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8080"]
+2023-04-01 15:52:25,267 [RMI TCP Connection(12)-127.0.0.1] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-04-01 15:52:25,269 [RMI TCP Connection(12)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-01 15:52:25,276 [RMI TCP Connection(12)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8080"]
+2023-04-01 15:52:25,280 [RMI TCP Connection(12)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Destroying ProtocolHandler ["http-nio-8080"]
+2023-04-01 15:52:33,796 [restartedMain] INFO  com.klinnovations.Application                      - Starting Application using Java 1.8.0_202 on Laxman with PID 10536 (D:\Softwares\STS Tool\sts_workspace\01-SB-Logging-App\target\classes started by user in D:\Softwares\STS Tool\sts_workspace\01-SB-Logging-App)
+2023-04-01 15:52:33,800 [restartedMain] INFO  com.klinnovations.Application                      - No active profile set, falling back to 1 default profile: "default"
+2023-04-01 15:52:33,872 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-01 15:52:33,872 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-01 15:52:35,162 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2023-04-01 15:52:35,179 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-01 15:52:35,181 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-04-01 15:52:35,181 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-01 15:52:35,281 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-04-01 15:52:35,281 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1408 ms
+2023-04-01 15:52:35,718 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2023-04-01 15:52:35,737 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-01 15:52:35,760 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-01 15:52:35,774 [restartedMain] INFO  com.klinnovations.Application                      - Started Application in 2.482 seconds (JVM running for 3.527)
+2023-04-01 15:52:43,886 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-01 15:52:43,887 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-04-01 15:52:43,889 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2023-04-01 15:52:43,925 [http-nio-8080-exec-2] INFO  com.klinnovations.rest.MsgRestController           - WelcomeMsg() Started....
+2023-04-01 15:52:43,925 [http-nio-8080-exec-2] WARN  com.klinnovations.rest.MsgRestController           - this is warning from WelcomeMsg()
+2023-04-01 15:52:43,926 [http-nio-8080-exec-2] ERROR com.klinnovations.rest.MsgRestController           - Exception occured..../ by zero
+2023-04-01 15:52:43,926 [http-nio-8080-exec-2] INFO  com.klinnovations.rest.MsgRestController           - WelcomeMsg() Ended....
